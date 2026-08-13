@@ -74,7 +74,7 @@ const projects = [
     title: "My Old Portfolio",
     description:
       "My previous portfolio website, built with React — kept here as an archive.",
-    liveUrl: "https://portfolio-abdullah-mard.vercel.app",
+    liveUrl: "https://abdullah-old-portfolio.vercel.app",
     image: "/projects/old_portfolio.png"
   },
 ];
