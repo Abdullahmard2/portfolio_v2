@@ -1,0 +1,19 @@
+.starfield-wrap {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background: radial-gradient(circle at 50% 40%, #101014 0%, #050506 70%);
+  overflow: hidden;
+}
+
+.starfield-canvas {
+  position: absolute;
+  inset: 0;
+}
+
+.starfield-vignette {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(circle at 50% 50%, transparent 40%, #000000 130%);
+}

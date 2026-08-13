@@ -1,0 +1,39 @@
+.dive-section {
+  position: relative;
+}
+
+.dive-heading {
+  display: flex;
+  flex-direction: column;
+}
+
+.dive-eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+  margin-bottom: 1.4rem;
+  display: inline-block;
+}
+
+.dive-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2.2rem, 6.4vw, 4.2rem);
+  line-height: 1.12;
+  margin: 0;
+  color: var(--ink);
+  max-width: 900px;
+}
+
+.dive-sub {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  line-height: 1.7;
+  color: var(--ink-dim);
+  max-width: 42ch;
+  margin: 0;
+  margin-left: auto;
+}
