@@ -16,22 +16,6 @@ const projects = [
     image: "/projects/Staedtebau.jpg",
   },
   {
-    id: "little-lemon",
-    title: "Little Lemon",
-    description:
-      "Restaurant website built with React, featuring a reservation booking system and a contact form.",
-    liveUrl: "https://my-project2-opal.vercel.app/",
-    image: "/projects/Little_Lemon.jpg",
-  },
-  {
-    id: "ms-jewelry",
-    title: "MS Jewelry",
-    description:
-      "A small landing page for a jewelry shop, built with HTML and CSS with a clean, modern storefront feel.",
-    liveUrl: "https://m-g-jewellery.vercel.app/",
-    image: "/projects/MS_Jewerly.jpg",
-  },
-  {
     id: "monastery",
     title: "Monastery in the City",
     description:
@@ -53,6 +37,22 @@ const projects = [
       "A classic beginner Blender project demonstrating modeling, texturing and lighting fundamentals.",
     liveUrl: "https://architecture-project-viewer.vercel.app/project/4/",
     image: "/projects/Donut.jpg",
+  },
+  {
+    id: "little-lemon",
+    title: "Little Lemon",
+    description:
+      "Restaurant website built with React, featuring a reservation booking system and a contact form.",
+    liveUrl: "https://my-project2-opal.vercel.app/",
+    image: "/projects/Little_Lemon.jpg",
+  },
+  {
+    id: "ms-jewelry",
+    title: "MS Jewelry",
+    description:
+      "A small landing page for a jewelry shop, built with HTML and CSS with a clean, modern storefront feel.",
+    liveUrl: "https://m-g-jewellery.vercel.app/",
+    image: "/projects/MS_Jewerly.jpg",
   },
   {
     id: "forest",
