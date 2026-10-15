@@ -25,7 +25,7 @@ export default function Hero() {
   // the zoom always plays out over a fixed 1s transition no matter how
   // fast someone scrolls past it — that's what makes it readable instead
   // of flashing by.
-  const { containerRef, panelStyle, step } = useHeroScrollPin(150);
+  const { containerRef, panelStyle, step } = useHeroScrollPin(125);
 
   const handleMouseMove = (e) => {
     const rect = stageRef.current.getBoundingClientRect();
@@ -45,7 +45,7 @@ export default function Hero() {
   };
 
   return (
-    <section id="hero" className="hero" ref={containerRef} style={{ height: "240vh" }}>
+    <section id="hero" className="hero" ref={containerRef} style={{ height: "200vh" }}>
       <div
         className={`hero-zoom step-${step}`}
         style={{ ...panelStyle, height: "100vh" }}
