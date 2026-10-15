@@ -20,12 +20,12 @@ const motions = [
 export default function Projects() {
   return (
     <section id="projects" className="projects-section">
-      <div style={{ height: "200vh" }} />
+      <div style={{ height: "100vh" }} />
 
       <div id="projects-heading" className="projects-heading projects-heading-delayed" style={{ marginTop: "0" }}>
         <span className="section-eyebrow">Selected Work</span>
         <h2 className="section-title">Projects I made</h2>
-        <div style={{ height: "150vh" }} />
+        <div style={{ height: "80vh" }} />
       </div>
 
       
@@ -43,7 +43,7 @@ export default function Projects() {
             origin={m.origin}
             angle={m.angle}
             align={m.align}
-            vh={300}
+            vh={220}
             wrapClassName=""
             overlap={i === projects.length - 1 ? 30 : undefined}
           >
@@ -66,7 +66,7 @@ export default function Projects() {
         );
       })}
 
-      <div style={{ height: "150vh" }} />
+      <div style={{ height: "80vh" }} />
     </section>
   );
 }
