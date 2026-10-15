@@ -13,7 +13,7 @@ export default function DiveReveal({
   as = "div",
   className = "",
   align = "center",
-  vh = 300,
+  vh = 220,
   angle = 0,
   origin = "50% 50%",
   wrapClassName = "",
