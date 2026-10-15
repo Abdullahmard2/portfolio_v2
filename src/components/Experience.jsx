@@ -14,7 +14,7 @@ const motions = [
 export default function Experience() {
   return (
     <section id="experience" className="experience-section">
-      <DiveReveal origin={motions[0].origin} angle={motions[0].angle} align={motions[0].align} vh={300}>
+      <DiveReveal origin={motions[0].origin} angle={motions[0].angle} align={motions[0].align} vh={220}>
         <div className="experience-heading">
           <span className="section-eyebrow">Background</span>
           <h2 className="section-title">Experience</h2>
@@ -30,7 +30,7 @@ export default function Experience() {
             origin={m.origin}
             angle={m.angle}
             align={m.align}
-            vh={300}
+            vh={220}
             overlap={isLast ? 30 : undefined}
           >
             <div className="experience-row">
